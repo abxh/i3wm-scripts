@@ -45,9 +45,9 @@ def icon_for_window(window):
     window = window.lower()
     if window in WINDOW_ICONS:
         return WINDOW_ICONS[window]
-    
-    print(f'No icon available for window with classes: {window}')
-    return DEFAULT_ICON
+    else:
+        print(f'No icon available for window with classes: {window}')
+        return DEFAULT_ICON
 
 def get_windows(workspace):
     windows = [w.window_class for w in workspace.leaves()]
