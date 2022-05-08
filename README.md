@@ -11,7 +11,7 @@ Inspired by:
 Script, which prints focused window title to stdout.
 
 ## focused_window_update.py
-Script, which updates i3blocks' window blocklet (described below), when focused window title has changed.
+Script, which updates i3blocks, when focused window title has changed.
 
 Sample configuration:
 ### i3blocks:
