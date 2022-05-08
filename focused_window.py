@@ -17,6 +17,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
+# Script to print focused window title to stdout.
+
 from i3ipc import Connection
 
 def get_focused_window_title(ipc):
