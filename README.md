@@ -8,10 +8,10 @@ Inspired by:
 - https://github.com/swaywm/sway/blob/master/contrib/autoname-workspaces.py
 
 ## focused_window.py
-Script to print focused window title to stdout.
+Script, which prints focused window title to stdout.
 
 ## focused_window_update.py
-Script to update i3blocks focus_window blocklet, when user changes focus.
+Script, which updates i3blocks' window blocklet (described below), when user changes focus.
 
 Sample configuration:
 ### i3blocks:
