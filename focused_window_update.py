@@ -17,7 +17,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
-# Script, which updates i3blocks' window blocklet, when user changes focus.
+# Script, which updates i3blocks, when focused window title has changed.
 
 from i3ipc import Connection,  Event
 import subprocess
