@@ -17,7 +17,7 @@ Sample configuration:
 ### i3blocks:
 ```
 [window]
-command=~/.scripts/i3ipc/focused_window.py
+command=~/.scripts/i3ipc-scripts/focused_window.py
 min_width=1920
 align=center
 signal=10
@@ -25,4 +25,4 @@ signal=10
 ### i3:
 ```
 # focused_window_update.py - update focused window title in i3blocks
-exec_always --no-startup-id $scripts/i3ipc/focused_window_update.py
+exec_always --no-startup-id $scripts/i3ipc-scripts/focused_window_update.py
