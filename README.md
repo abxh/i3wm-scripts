@@ -1,7 +1,7 @@
 # i3ipc-scripts
 Scripts, which depends on python-i3ipc made for i3wm.
 ## autoname_workspaces.py
-Scripts which automatically names workspaces based on the windows in the workspaces.
+Script, which automatically names workspaces based on the windows in the workspaces.
 
 Inspired by:
 - https://github.com/walshc/i3/blob/master/scripts/autoname-workspaces.py
