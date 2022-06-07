@@ -11,6 +11,8 @@ def update_title():
     subprocess.run(["pkill","-SIGRTMIN+"+str(SIGNAL),"i3blocks"])
 
 def main():
+    update_title()
+    
     ipc = Connection()
 
     def on_window_change(ipc, e):
